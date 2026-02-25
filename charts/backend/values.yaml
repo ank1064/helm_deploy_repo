@@ -1,8 +1,8 @@
 replicaCount: 2
 
 image:
-  repository: node
-  tag: "18-alpine"
+  repository: nginx
+  tag: "latest"
   pullPolicy: IfNotPresent
 
 service:
@@ -11,6 +11,7 @@ service:
 
 container:
   port: 3000
+  
 
 resources:
   limits:
