@@ -14,7 +14,7 @@ container:
 
 resources:
   limits:
-    cpu: 200m
+    cpu: 
     memory: 256Mi
   requests:
     cpu: 100m
